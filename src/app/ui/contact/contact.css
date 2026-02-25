@@ -1,0 +1,128 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b0b0b;
+    color: #eaeaea;
+}
+
+/* Section */
+.contact-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+/* Container */
+.contact-container {
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+}
+
+/* Headings */
+.contact-container h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #a0a0a0;
+    margin-bottom: 35px;
+    font-size: 14px;
+}
+
+/* Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Inputs */
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 14px;
+    background: transparent;
+    border: 1px solid #333;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.input-group input::placeholder,
+.input-group textarea::placeholder {
+    color: #777;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    outline: none;
+    border-color: #fff;
+}
+
+/* Button */
+button {
+    padding: 14px;
+    background: #fff;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #d4d4d4;
+}
+
+/* Contact info */
+.contact-info {
+    margin-top: 30px;
+    color: #888;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .contact-container h1 {
+        font-size: 28px;
+    }
+}
+.brand-description {
+    background-color: #0b0b0b;
+    color: #eaeaea;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.description-container {
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.description-container h2 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.description-container p {
+    color: #b5b5b5;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
